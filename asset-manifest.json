@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/contactManager_Context-API/static/css/main.c1c7d0a6.chunk.css",
+    "main.js": "/contactManager_Context-API/static/js/main.65b9d57c.chunk.js",
+    "main.js.map": "/contactManager_Context-API/static/js/main.65b9d57c.chunk.js.map",
+    "runtime~main.js": "/contactManager_Context-API/static/js/runtime~main.a07c3252.js",
+    "runtime~main.js.map": "/contactManager_Context-API/static/js/runtime~main.a07c3252.js.map",
+    "static/css/2.0624914a.chunk.css": "/contactManager_Context-API/static/css/2.0624914a.chunk.css",
+    "static/js/2.f37b79e5.chunk.js": "/contactManager_Context-API/static/js/2.f37b79e5.chunk.js",
+    "static/js/2.f37b79e5.chunk.js.map": "/contactManager_Context-API/static/js/2.f37b79e5.chunk.js.map",
+    "index.html": "/contactManager_Context-API/index.html",
+    "precache-manifest.a1a676679170a4b333c97642a2d165cf.js": "/contactManager_Context-API/precache-manifest.a1a676679170a4b333c97642a2d165cf.js",
+    "service-worker.js": "/contactManager_Context-API/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/contactManager_Context-API/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.c1c7d0a6.chunk.css.map": "/contactManager_Context-API/static/css/main.c1c7d0a6.chunk.css.map"
+  }
+}
