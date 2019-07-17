@@ -26,7 +26,8 @@ class AddContact extends Component {
     const { name, email, phone } = this.state;
 
     //Checking for errors
-    if (name === "") {
+    let Name = name.trim();
+    if (Name === "") {
       this.setState({
         errors: { name: "Name is required" }
       });
@@ -47,13 +48,16 @@ class AddContact extends Component {
 
     const newContact = {
       // id: uuid(),
-      name,
+      name: Name,
       email,
       phone
     };
 
-    const res = await axios.post("https://jsonplaceholder.typicode.com/users", newContact);
-    dispatch({ type: "ADD_CONTACT", payload: res.data })
+    const res = await axios.post(
+      "https://jsonplaceholder.typicode.com/users",
+      newContact
+    );
+    dispatch({ type: "ADD_CONTACT", payload: res.data });
 
     //clear State
     this.setState({

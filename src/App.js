@@ -24,6 +24,11 @@ class App extends Component {
             <div className="container">
               <Switch>
                 <Route exact path="/" component={Contact} />
+                <Route
+                  exact
+                  path="https://abhishekpandya5.github.io/contactManager_Context-API/"
+                  component={Contact}
+                />
                 <Route exact path="/contacts/add" component={AddContact} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/test" component={Test} />
@@ -32,7 +37,7 @@ class App extends Component {
                   path="/contacts/edit/:id"
                   component={EditContact}
                 />
-                <Route exact path="*" component={NotFound} />
+                <Route component={NotFound} />
               </Switch>
             </div>
           </div>
