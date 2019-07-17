@@ -26,7 +26,7 @@ class App extends Component {
                 <Route exact path="/" component={Contact} />
                 <Route
                   exact
-                  path="https://abhishekpandya5.github.io/contactManager_Context-API/"
+                  path="/contactManager_Context-API/"
                   component={Contact}
                 />
                 <Route exact path="/contacts/add" component={AddContact} />
