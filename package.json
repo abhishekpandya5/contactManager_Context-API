@@ -2,10 +2,12 @@
   "name": "react_proj",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://abhishekpandya5.github.io/contactManager_Context-API",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-moment": "^0.9.2",
@@ -14,6 +16,8 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

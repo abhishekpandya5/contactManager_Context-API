@@ -14,7 +14,6 @@ import About from "./components/Pages/About";
 import NotFound from "./components/Pages/NotFound";
 import Test from "./components/Layout/Test/Test";
 
-
 class App extends Component {
   render() {
     return (
@@ -25,18 +24,20 @@ class App extends Component {
             <div className="container">
               <Switch>
                 <Route exact path="/" component={Contact} />
-                <Route extact path="/contacts/add" component={AddContact} />
+                <Route exact path="/contacts/add" component={AddContact} />
                 <Route exact path="/about" component={About} />
-                <Route path="/test" component={Test} />
-                <Route path="/contacts/edit/:id" component={EditContact} />
-                <Route component={NotFound} />
-                
+                <Route exact path="/test" component={Test} />
+                <Route
+                  exact
+                  path="/contacts/edit/:id"
+                  component={EditContact}
+                />
+                <Route exact component={NotFound} />
               </Switch>
             </div>
           </div>
-        </Router> 
+        </Router>
       </Provider>
-      
     );
   }
 }
