@@ -32,7 +32,7 @@ class App extends Component {
                   path="/contacts/edit/:id"
                   component={EditContact}
                 />
-                <Route exact component={NotFound} />
+                <Route exact path="*" component={NotFound} />
               </Switch>
             </div>
           </div>
